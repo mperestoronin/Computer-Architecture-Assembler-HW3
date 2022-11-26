@@ -1,7 +1,7 @@
 # Список изменений
 * Следующие флаги были применены ко всем файлам:
 `gcc -masm=intel -fno-asynchronous-unwind-tables -fno-jump-tables -fno-stack-protector -fno-exceptions -fverbose-asm ./<filename>.c -S -o ./<filename>.s`
-* Убран лишний код 
+* Убран лишний код в мейне
 ``` assembly
 	.ident	"GCC: (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0"
 
