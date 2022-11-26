@@ -2,7 +2,8 @@
 * Следующие флаги были применены ко всем файлам:
 `gcc -masm=intel -fno-asynchronous-unwind-tables -fno-jump-tables -fno-stack-protector -fno-exceptions -fverbose-asm ./<filename>.c -S -o ./<filename>.s`
 * Убран лишний код 
-* .ident	"GCC: (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0"
+``` assembly
+	.ident	"GCC: (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0"
 
 	.section	.note.GNU-stack,"",@progbits
 
@@ -37,6 +38,7 @@
 	.align 8
 
 4:
+```
 * Поменял параметр i в функции getpi
 <br>(QWORD PTR -8[rbp] на xmm3)
 ### Попытка изменить другие регистры привела к некорректной работе программы.
