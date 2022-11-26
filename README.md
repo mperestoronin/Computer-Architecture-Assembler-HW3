@@ -6,7 +6,7 @@
 Для компиляции без модификаций использовалась команда:
 <br>`gcc -masm=intel ./<file_name>.c -S -o ./<file_name>.s`
 * Приведено [решение задачи на C.](https://github.com/mperestoronin/Computer-Architecture-Assembler-HW3/tree/main/CFiles)
-* В полученную ассемблерную программу, откомпилированную без оптимизирующих и отладочных опций, добавлены [комментарии](https://github.com/mperestoronin/Computer-Architecture-Assembler-HW2/tree/main/Assembler_Original), поясняющие эквивалентное представление переменных в программе на C.
+* В полученную ассемблерную программу, откомпилированную без оптимизирующих и отладочных опций, добавлены [комментарии](https://github.com/mperestoronin/Computer-Architecture-Assembler-HW3/tree/main/AssemblerOriginal), поясняющие эквивалентное представление переменных в программе на C.
 * Из ассемблерной программы [убраны лишние макросы](https://github.com/mperestoronin/Computer-Architecture-Assembler-HW2/tree/main/Assembler_Edited/for_4_%26_5_points) за счет использования соответствующих аргументов командной строки и/или за счет ручного редактирования исходного текста ассемблерной программы. Модифицированная ассемблерная программа отдельно откомпилирована
 и скомпонована без использования опций отладки.
 * Представлено [полное тестовое покрытие](https://github.com/mperestoronin/Computer-Architecture-Assembler-HW2/blob/main/Tests.md), дающее одинаковый результат
